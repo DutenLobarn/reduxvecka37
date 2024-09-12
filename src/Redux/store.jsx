@@ -1,12 +1,12 @@
 import { configureStore} from "@reduxjs/toolkit";
-// import {  } from "";
-import productReducer  from "./slices/products/productsSlice";
+
+import weatherReducer  from "./slices/weatherSlice/weatherSlice";
 
 
 const store = configureStore({  
 
     reducer: {
-        products: productReducer,
+        weather: weatherReducer
     }
 
 
